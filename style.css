@@ -1,0 +1,259 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: inline;
+}
+
+#score-praise {
+    word-wrap: var(10px);
+}
+
+.first-part {
+    padding: 30px 20px 50px 20px;
+    max-width: 18.5rem;
+    display: flex;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 5%;
+    height: auto;
+    flex-basis: 16rem;
+    display: inline;
+}
+
+.second-part {
+    max-width: 18.5rem;
+    display: flex;
+    height: 25rem;
+    flex-basis: 18.75rem;
+    position: relative;
+    display: inline;
+    margin: 0px 0px 0px 20px;
+}
+
+#main {
+    max-width: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 7.35% auto;
+    height: 26.5rem;
+    text-align: center;
+    box-shadow: 10px 15px 40px hsl(241, 100%, 89%);
+    flex-basis: 37.5rem;
+    border-radius: 5%;
+}
+
+.summary {
+    font-size: large;
+    text-align: left;
+    top: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+}
+
+.main_score {
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.main_score_2 {
+    margin: 0px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.score_circle {
+    text-align: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    padding: 20px;
+    border-radius: 100%;
+    width: 130px;
+    line-height: 10px;
+    margin: 30px auto;
+}
+
+
+.first-score {
+    color: hsl(224, 30%, 27%);
+}
+
+.continue {
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    padding: 7px 40px;
+    border-radius: 30px;
+    height: 50px;
+    width: 240px;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    margin: auto;
+    border: 0px;
+}
+
+.continue:hover {
+    background-color: hsl(256, 72%, 46%);
+}
+
+.scores {
+    margin: 10px;
+    max-width: 220px;
+    position: absolute;
+    bottom: -15px;
+    align-items: center;
+    font-weight: 900;
+}
+
+#one .subjects{
+    color: hsl(0, 100%, 67%);
+    font-weight: 900;
+}
+#two .subjects{
+    color: hsl(39, 100%, 56%);
+    font-weight: 900;
+}
+#three .subjects{
+    color: hsl(166, 100%, 37%);
+    font-weight: 900;
+}
+#four .subjects{
+    color: hsl(234, 85%, 45%);
+    font-weight: 900;
+}
+
+#one .score{
+    position: absolute;
+    right: 10px;
+}
+#two .score{
+    position: absolute;
+    right: 10px;
+}
+#three .score{
+    position: absolute;
+    right: 10px;
+}
+#four .score{
+    position: absolute;
+    right: 10px;
+}
+
+#one {
+    position: relative;
+    text-align: left;
+    margin-top: 65px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+#two {
+    position: relative;
+    text-align: left;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+#three {
+    position: relative;
+    text-align: left;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+#four {
+    position: relative;
+    text-align: left;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+
+svg {
+    float: left;
+    margin: auto 10px;
+}
+
+
+
+@media only screen and (max-width: 550px){
+    .continue {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .first-part {
+        display: block;
+        max-width: 100vw;
+        min-height: 50vh;
+        max-height: 100vh;
+        margin: 0px;
+        margin-top: -15px;
+        padding-top: 30px;
+    }
+    .second-part {
+        display: block;
+        max-width: 100vw;
+        min-height: 50vh;
+        max-height: 100vh;
+        margin: 0px 40px;
+        padding-top: 30px;
+    }
+    
+    #main {
+        box-shadow: none;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scores, .continue {
+        min-width: 90%;
+        margin: 20px auto;
+    }
+
+    .continue {
+        bottom: auto;
+        position: relative;
+    }
+
+    .attribution {
+        display: block;
+        position: absolute;
+        bottom: -130px;
+        left: 110px;
+    }
+}
