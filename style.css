@@ -1,5 +1,7 @@
 body {
     background-color: hsl(0, 0%, 100%);
+    min-height: 1;
+    box-sizing: border-box;
 }
 
 p {
@@ -7,6 +9,10 @@ p {
     font-size: 1.125rem;
     font-weight: 500;
     display: inline;
+}
+
+#below_paragrap {
+    font-size: larger;
 }
 
 #score-praise {
